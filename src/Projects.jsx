@@ -34,7 +34,7 @@ class Projects extends Component {
       }
   
       return (
-        <div className="ui main container">
+        <div className="ui main container" style={divStyle}>
           <div className="ui stackable two column grid">
              <div className="column">
                <UndrawMobileApps primaryColor='#855B06' height='200px'/>
@@ -51,6 +51,10 @@ class Projects extends Component {
         </div>
       );
     }
+  }
+
+  const divStyle = {
+    marginTop:100
   }
   
   export default Projects;
