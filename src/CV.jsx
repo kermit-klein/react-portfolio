@@ -4,7 +4,7 @@ const CV = () => {
     return (
       <React.Fragment>
           
-          <img style={underCons} src="https://lh3.googleusercontent.com/proxy/ru0JQZHE98x_u6UJeZ2KOrVY3tRtZvMGQWg0SankUNBKVBm_o3jhk5olFT-XI4p3RvtZLMJRiloM-ZHNnVHNMpaC8w"/>
+          <img style={underCons} src="./src/undercons.gif"/>
           
       <div className="ui container">
        
@@ -18,7 +18,8 @@ const CV = () => {
   };
 
   const underCons = {
-    "margin": "200px 700px"
+    margin: "200px 700px",
+    position: "relative"
   }
   
   export default CV;
