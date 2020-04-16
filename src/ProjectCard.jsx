@@ -1,18 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
   return (
     <>
-      <div class="ui card">
-        <div class="image">
-          <img src={project.image} />
+    <div className="ui link cards">
+      <div className="ui card">
+        <div className="image">
+        {/* <a className="image" href={project.link}> */}
+          <img src={project.image}/>
+          {/* </a> */}
         </div>
-        <div class="content">
-          <h3 class="ui header">{project.name}</h3>
-
-          <div class="description">{project.description}</div>
+        <div className="content">
+          <h3 className="ui header"><a href={project.link}>{project.name}</a></h3>
+          <div className="description">{project.description}</div>
         </div>
       </div>
+    </div>
     </>
   );
 };

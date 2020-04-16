@@ -53,8 +53,8 @@ describe('User can navigate the app', () => {
         cy.get('#header').click();
       });
   
-      it('displays Hello World', () => {
-        cy.get('#hello').should('contain', 'Hello');
+      it('displays Buttons', () => {
+        cy.get('.github').should('contain', 'Github');
       });
   
       it('displays correct url', () => {

@@ -3,10 +3,10 @@ import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="ui fixed inverted menu">
+    <nav className="ui secondary fixed menu inverted blue">
       <div className="ui container">
         <Link id="header" className="header item" to="/">
-          My Portfolio
+        <i className="fas fa-crow fa-lg"> <span className="crow">My Portfolio</span></i>
         </Link>
         <div className="right menu">
           <NavLink

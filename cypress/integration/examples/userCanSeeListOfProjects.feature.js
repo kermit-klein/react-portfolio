@@ -7,24 +7,24 @@ describe('User can see list of projects', () => {
     it('displays first project', () => {
       cy.get('#project-1').within(() => {
         cy.get(('.image')).should('exist');
-        cy.get('.ui.header').should('contain', 'My First Website');
-        cy.get('.description').should('contain', 'This was my first project. The guy lost, but won the popular vote!');
-      })
-    });
-  
-    it('displays second project', () => {
-      cy.get('#project-2').within(() => {
-        cy.get(('.image')).should('exist');
-        cy.get('.ui.header').should('contain', 'UI Design');
-        cy.get('.description').should('contain', 'Designing user interfaces is fun. I want to learn more about that...');
+        cy.get('.ui.header').should('contain', 'Library');
+        cy.get('.description').should('contain', 'A virtual library living in Ruby,It has 32 books which you can checkout and return but never can read');
       })
     });
   
     it('displays third project', () => {
       cy.get('#project-3').within(() => {
         cy.get(('.image')).should('exist');
-        cy.get('.ui.header').should('contain', 'Mobile UX');
-        cy.get('.description').should('contain', "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.");
+        cy.get('.ui.header').should('contain', 'FizzBuzz');
+        cy.get('.description').should('contain', "First thing I've done in Ruby, be nice.");
+      })
+    });
+  
+    it('displays fifth project', () => {
+      cy.get('#project-5').within(() => {
+        cy.get(('.image')).should('exist');
+        cy.get('.ui.header').should('contain', 'Kermit Homepage');
+        cy.get('.description').should('contain', "You can learn about Kermit and purchase merchandise (at least you can try to).");
       })
     });  
   });
