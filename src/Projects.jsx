@@ -7,7 +7,7 @@ import { UndrawMobileApps } from "react-undraw-illustrations"
 
 class Projects extends Component {
     state = {
-      projects: []
+      projects:[]
     }
   
     componentDidMount() {

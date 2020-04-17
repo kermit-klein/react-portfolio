@@ -1,0 +1,76 @@
+[
+
+{ 
+    "id":1,
+    "name":"Work",
+    "title":"CRM Specialist",
+    "company":"Betsson AB",
+    "year":"2016-2019",
+    "place":"Stockholm",
+    "description":"Monthly planning of retention,reactivation,acquisition campaigns. Designing customer journeys via Salesforce JourneyBuilder. Collaborate with Product Team to test and release new products. Working together with Insight Team day to day examination of customer activity/behavior and trends according to analytical data."
+},
+{ 
+    "id":2,
+    "name":"Work",
+    "title":"Marketing Coordinator",
+    "company":"Betsson AB",
+    "year":"2014-2016",
+    "place":"Stockholm",
+    "description":"Execution of planned retention and reactivation campaigns for customers. Handling customer sendouts ( Newsletters, on-site messages, SMS, mobile push notifications ). Coordinating Creative and Social Media team to produce internal and external campaign banners/visuals and posts."
+},
+{ 
+    "id":3,
+    "name":"Work",
+    "title":"Customer Representative",
+    "company":"Betsson AB",
+    "year":"2013",
+    "place":"Stockholm",
+    "description":"Resolving product or service problems by clarifying the complaint for various online brands. Recommend potential products or services to management by collecting customer information and analyzing customer needs."
+},
+{ 
+    "id":4,
+    "name":"Education",
+    "title":"Junior Web-Developer",
+    "company":"Craft Academy",
+    "year":"Ongoing",
+    "place":"Stockholm",
+    "description":"Full-stack web developing course (Ruby on Rails,React,Javascript,HTML,CSS)."
+},
+{ 
+    "id":5,
+    "name":"Education",
+    "title":"Master of Science, Electric Power Engineering",
+    "company":"Kungliga Tekniska Högskolan",
+    "year":"2009-2012",
+    "place":"Stockholm",
+    "description":"Electrical power engineering focus on power systems."
+},
+{ 
+    "id":7,
+    "name":"Education",
+    "title":"Bachelor of Science, Electrical Engineering",
+    "company":"Istanbul Technical University",
+    "year":"2004-2008",
+    "place":"Istanbul",
+    "description":"Electrical engineering focus on electrical machines, HV and power electronics."
+},
+{ 
+    "id":8,
+    "name":"Work",
+    "title":"Internship/Master Thesis",
+    "company":"Alstom Power",
+    "year":"2011",
+    "place":"Paris",
+    "description":"Parameter study of ferro-resonance with harmonic balance method, investigation of resonances in power plant networks and developing a mathematical tool to study resonance."
+},
+{ 
+    "id":9,
+    "name":"Education",
+    "title":"High School",
+    "company":"Mathematics and Science, Burak Bora Anatolian High School",
+    "year":"1997-2004",
+    "place":"Istanbul",
+    "description":""
+}
+
+]
