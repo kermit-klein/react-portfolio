@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import axios from "axios";
+import React, { Component } from "react"
+import axios from "axios"
 import ProjectCard from "./ProjectCard"
-import { UndrawMobileApps } from "react-undraw-illustrations";
+import { UndrawMobileApps } from "react-undraw-illustrations"
 
 
 
 class Projects extends Component {
     state = {
       projects: []
-    };
+    }
   
     componentDidMount() {
         axios.get('./src/data/projects.json')
@@ -21,7 +21,7 @@ class Projects extends Component {
 
     render() {
       const projects = this.state.projects;
-      let projectsList;
+      let projectsList
   
       if (projects.length > 0) {
         projectsList = projects.map(project => {
@@ -29,12 +29,12 @@ class Projects extends Component {
             <div id={'project-' + project.id} key={project.id}>
               <ProjectCard project={project}/>
             </div>
-          );
-        });
+          )
+        })
       }
   
       return (
-        <div className="ui main container" style={divStyle}>
+        <div className="ui main  container" style={divStyle}>
           <div className="ui stackable two column grid">
              <div className="column">
                <UndrawMobileApps primaryColor='#855B06' height='200px'/>
@@ -47,7 +47,7 @@ class Projects extends Component {
              </p>
           </div>
           </div>
-          <div className="ui stackable four column grid">{projectsList}</div>
+          <div className="ui stackable centered four column grid">{projectsList}</div>
         </div>
       );
     }
@@ -57,4 +57,4 @@ class Projects extends Component {
     marginTop:100
   }
   
-  export default Projects;
+  export default Projects

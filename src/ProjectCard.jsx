@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react"
+import { Link } from "react-router-dom"
 
 const ProjectCard = ({ project }) => {
   return (
@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
       <div className="ui card">
         <div className="image">
         {/* <a className="image" href={project.link}> */}
-          <img src={project.image}/>
+          <img className="prjcard" src={project.image}/>
           {/* </a> */}
         </div>
         <div className="content">
@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
       </div>
     </div>
     </>
-  );
-};
+  )
+}
 
 export default ProjectCard;

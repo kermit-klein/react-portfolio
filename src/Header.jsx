@@ -1,5 +1,5 @@
-import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import React from "react"
+import { NavLink, Link } from "react-router-dom"
 
 const Header = () => {
   return (
@@ -18,7 +18,7 @@ const Header = () => {
             About Me
           </NavLink>
           <NavLink
-            id="projects-tab"
+            id="cv-tab"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/cv"
@@ -44,4 +44,4 @@ const headerStyle = {
   fontSize:18
 }
 
-export default Header;
+export default Header

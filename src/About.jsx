@@ -1,5 +1,5 @@
-import React from "react";
-import { UndrawArtificialIntelligence } from "react-undraw-illustrations";
+import React from "react"
+import { UndrawArtificialIntelligence } from "react-undraw-illustrations"
 
 const About = () => {
 

@@ -8,7 +8,7 @@ describe('User can see list of projects', () => {
       cy.get('#project-1').within(() => {
         cy.get(('.image')).should('exist');
         cy.get('.ui.header').should('contain', 'Library');
-        cy.get('.description').should('contain', 'A virtual library living in Ruby,It has 32 books which you can checkout and return but never can read');
+        cy.get('.description').should('contain', 'A virtual library living in Ruby,It has 32 books which you can checkout and return but never read.');
       })
     });
   
@@ -16,7 +16,7 @@ describe('User can see list of projects', () => {
       cy.get('#project-3').within(() => {
         cy.get(('.image')).should('exist');
         cy.get('.ui.header').should('contain', 'FizzBuzz');
-        cy.get('.description').should('contain', "First thing I've done in Ruby, be nice.");
+        cy.get('.description').should('contain', "First thing I've done in Ruby, so be nice.");
       })
     });
   

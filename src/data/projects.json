@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Library",
     "image": "http://static.everypixel.com/ep-libreshot/1150/5134/8094/15516/11505134809415516108.jpg",
-    "description": "A virtual library living in Ruby,It has 32 books which you can checkout and return but never can read.",
+    "description": "A virtual library living in Ruby,It has 32 books which you can checkout and return but never read.",
     "link": "https://github.com/kermit-klein/library-challenge"
   },
   {
@@ -17,7 +17,7 @@
     "id": 3,
     "name": "FizzBuzz",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzUTwEIKI84xQgPVrEn6njbN_jlS6klZNPQYTBsntFwOguooIY&usqp=CAU",
-    "description": "First thing I've done in Ruby, be nice.",
+    "description": "First thing I've done in Ruby, so be nice.",
     "link":"https://github.com/kermit-klein/fizzbuzz" 
   },
   {
@@ -37,7 +37,7 @@
   {
     "id": 6,
     "name": "BMI Calculator",
-    "image": "https://www.nitrocut.com/wp-content/uploads/2018/09/Benefits-of-the-BMI-Calculator-for-People-of-all-Ages-1024x733.jpg",
+    "image": "https://yourbodyneedsu.com/wp-content/uploads/2014/05/etvagycsokkento-etelek-alma.jpg",
     "description": "A BMI calculator where you can measure how many Big Macs you had.",
     "link":"https://github.com/kermit-klein/BMI_calculator"
   }
