@@ -52,7 +52,7 @@ const About = () => {
       <div className="row" ref={(el)=>{if(el){el.style.setProperty("margin-bottom","50px","important")}}}> 
       <div className="sixteen wide column">
       
-      <img src="./src/stchlm.jpg"/>
+      <img src="./src/img/stchlm.jpg"/>
     
       </div>
       
