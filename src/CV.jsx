@@ -26,7 +26,6 @@ class CV extends Component {
         let cvEduList = []
 
         for (let i=0;i<cvDatas.length-1;i++) {
-          console.log(i)
              if (cvDatas[i].name=="Work") {
                cvWorkList.push(<div className="item" id={'work-' + cvDatas[i].id} key={cvDatas[i].id}>
                                   <CVcard cvdata={cvDatas[i]}/>
