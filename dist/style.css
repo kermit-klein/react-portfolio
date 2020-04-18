@@ -65,6 +65,7 @@ footer {
 #cv-container {
   margin-top:100px !important;
   max-width:65% !important;
+  margin-bottom:100px
 
 }
 
@@ -79,14 +80,21 @@ footer {
 
 .company {
   font-size: 1.2rem !important;
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
+  font-style: italic
 }
 
 .description {
   font-size: 1.1rem !important;
-  margin-bottom: 10px;
+  margin-bottom: 20px !important;
 }
 
 .eduhead,.workhead {
   font-size: 2rem !important;
+  font-family: 'Rubik', sans-serif !important;
+  text-shadow: 0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 30px #fff,
+  0 0 40px #54c8ff,
+  0 0 70px #54c8ff
 }

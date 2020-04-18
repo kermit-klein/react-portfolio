@@ -29,7 +29,7 @@ class CV extends Component {
            cvWorkList = cvDatas.map(cvdata => {
              if (cvdata.name == "Work") {
                return (
-                <div class="item" id={'work-' + cvdata.id} key={cvdata.id}>
+                <div className="item" id={'work-' + cvdata.id} key={cvdata.id}>
                      <CVcard cvdata={cvdata}/>
                   </div>
                )
@@ -41,7 +41,7 @@ class CV extends Component {
           cvEduList = cvDatas.map(cvdata => {
             if(cvdata.name == "Education") {
               return (
-               <div class="item" id={'edu-' + cvdata.id} key={cvdata.id}>
+               <div className="item" id={'edu-' + cvdata.id} key={cvdata.id}>
                  <CVcard cvdata={cvdata}/>
                </div>
               )
@@ -57,14 +57,6 @@ class CV extends Component {
                 <h3 className="ui header eduhead">Education</h3>
                 <div class="ui list">{cvEduList}</div>
             </div>
-
-              <div className="ui container">
-                <div className="btngroup">
-                  <a href="https://www.discogs.com/user/allezz/collection" ><button className="ui big button discogs"><i className="fas fa-record-vinyl"></i>  My Discogs</button></a>
-                  <a href="https://github.com/kermit-klein" ><button className="ui big github button github"><i className="github icon"></i>My Github</button></a>
-                  <a href="https://www.linkedin.com/in/alierbay/" ><button className="ui big linkedin button linkedin"><i className="linkedin icon"></i>My LinkedIn</button></a>
-                </div>
-              </div>
             </React.Fragment>
         
           )

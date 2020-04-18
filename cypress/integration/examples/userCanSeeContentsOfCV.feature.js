@@ -1,4 +1,4 @@
-describe('User can see list of projects', () => {
+describe('User can see CV page', () => {
     beforeEach(() => {
       cy.visit('http://localhost:3000');
       cy.get('#cv-tab').click();
