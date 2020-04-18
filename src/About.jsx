@@ -15,7 +15,7 @@ const About = () => {
       <div className="four wide column">
         <UndrawStaticAssets primaryColor='#855B06' height='200px' />
       </div>
-      <div className=" ten wide column">
+      <div className=" twelve wide column">
         <h1 className="ui header" id="about-header">About Me</h1>
         <p className="textstyle1">
           Born in Ankara.. Grew up in Istanbul.. Moved to Stockholm.. 
@@ -28,8 +28,8 @@ const About = () => {
       </div>
       </div>
 
-<div className="row" ref={(el)=>{if(el){el.style.setProperty("margin-top","70px","important")}}}>
-      <div className=" ten wide column">
+<div className="row" ref={(el)=>{if(el){el.style.setProperty("margin-top","1px","important")}}}>
+      <div className=" twelve wide column">
         <h1 className="ui header" id="about-header">Interests</h1>
         <div className="ui bulleted list textstyle1">
           <div className="item">Collecting brand new and second hand vinyls. I'm at the beginning of my collection but I have already
@@ -48,6 +48,19 @@ const About = () => {
         <UndrawArtificialIntelligence primaryColor='#855B06' height='300px' />
       </div>
       </div>
+
+      <div className="row" ref={(el)=>{if(el){el.style.setProperty("margin-bottom","50px","important")}}}> 
+      <div className="sixteen wide column">
+      
+      <img src="./src/stchlm.jpg"/>
+    
+      </div>
+      
+      </div>
+
+
+
+
     </div>
     <div className="ui container">
         <div className="btngroup">
