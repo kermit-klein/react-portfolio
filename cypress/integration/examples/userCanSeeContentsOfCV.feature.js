@@ -4,27 +4,51 @@ describe('User can see CV page', () => {
       cy.get('#cv-tab').click();
     })
   
-    // it('displays first project', () => {
-    //   cy.get('#project-1').within(() => {
-    //     cy.get(('.image')).should('exist');
-    //     cy.get('.ui.header').should('contain', 'Library');
-    //     cy.get('.description').should('contain', 'A virtual library living in Ruby,It has 32 books which you can checkout and return but never read.');
-    //   })
-    // });
+    it('displays work experience 1', () => {
+      cy.get('#work-1').within(() => {
+        cy.get('.header').should('contain', 'CRM Specialist');
+        cy.get('.description').should('contain', 'Monthly planning of retention');
+      })
+    });
   
-    // it('displays third project', () => {
-    //   cy.get('#project-3').within(() => {
-    //     cy.get(('.image')).should('exist');
-    //     cy.get('.ui.header').should('contain', 'FizzBuzz');
-    //     cy.get('.description').should('contain', "First thing I've done in Ruby, so be nice.");
-    //   })
-    // });
+    it('displays work experience 2', () => {
+      cy.get('#work-2').within(() => {
+        cy.get('.header').should('contain', 'Marketing Coordinator');
+        cy.get('.company').should('contain', "Betsson AB");
+      })
+    });
   
-    // it('displays fifth project', () => {
-    //   cy.get('#project-5').within(() => {
-    //     cy.get(('.image')).should('exist');
-    //     cy.get('.ui.header').should('contain', 'Kermit Homepage');
-    //     cy.get('.description').should('contain', "You can learn about Kermit and purchase merchandise (at least you can try to).");
-    //   })
-    // });  
+    it('displays work experience 3', () => {
+      cy.get('#work-3').within(() => {
+        cy.get('.header').should('contain', 'Customer Representative');
+        cy.get('.description').should('contain', "Resolving product or service problems");
+      })
+    }); 
+    
+    it('displays education 1', () => {
+        cy.get('#edu-4').within(() => {
+          cy.get('.header').should('contain', 'Junior Web-Developer');
+          cy.get('.description').should('contain', "Full-stack web developing");
+        })
+      });  
+
+    it('displays education 2', () => {
+        cy.get('#edu-5').within(() => {
+          cy.get('.header').should('contain', 'Master of Science, Electric Power Engineering');
+          cy.get('.description').should('contain', "power systems");
+        })
+    });  
+
+    it('displays education 3', () => {
+        cy.get('#edu-7').within(() => {
+          cy.get('.header').should('contain', 'Bachelor of Science, Electrical Engineering');
+          cy.get('.description').should('contain', "electrical machines");
+        })
+    });  
+
+    it("Images on CV page disappears when width is less than 1600px",() => {
+        cy.viewport(1599,1080)
+        cy.get("#cvwork").should("not.be.visible")
+        cy.get("#cvhat").should("not.be.visible")
+    })
   });

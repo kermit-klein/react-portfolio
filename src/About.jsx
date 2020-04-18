@@ -37,7 +37,7 @@ const About = () => {
 };
 
 const divStyle = {
-  marginTop:150
+  marginTop:120
 }
 
 
