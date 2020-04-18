@@ -98,3 +98,22 @@ footer {
   0 0 40px #54c8ff,
   0 0 70px #54c8ff
 }
+
+#cvhat {
+  position:absolute !important; 
+  top:750px !important; 
+  left:0 !important
+}
+
+#cvwork {
+  position:absolute !important; 
+  top:250px !important; 
+  left:0 !important
+}
+
+@media (max-width: 1600px) {
+  #cvhat,#cvwork {
+  display: none;
+  }
+  }
+

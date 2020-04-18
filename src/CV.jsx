@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import axios from "axios"
 import CVcard from "./CVcard"
+import { UndrawGraduation } from "react-undraw-illustrations"
+import { UndrawWorkTime } from "react-undraw-illustrations"
 
 class CV extends Component {
 
@@ -20,36 +22,34 @@ class CV extends Component {
       render() {
 
         const cvDatas = this.state.cvData
-        console.log(cvDatas)
-     
-        let cvWorkList
-        let cvEduList
+        let cvWorkList = []
+        let cvEduList = []
 
-        if (cvDatas.length>0) {
-           cvWorkList = cvDatas.map(cvdata => {
-             if (cvdata.name == "Work") {
-               return (
-                <div className="item" id={'work-' + cvdata.id} key={cvdata.id}>
-                     <CVcard cvdata={cvdata}/>
-                  </div>
-               )
-             }         
-           })
+        for (let i=0;i<cvDatas.length-1;i++) {
+          console.log(i)
+             if (cvDatas[i].name=="Work") {
+               cvWorkList.push(<div className="item" id={'work-' + cvDatas[i].id} key={cvDatas[i].id}>
+                                  <CVcard cvdata={cvDatas[i]}/>
+                                </div>
+                              )
+             } else {
+
+              cvEduList.push(<div className="item" id={'edu-' + cvDatas[i].id} key={cvDatas[i].id}>
+                                  <CVcard cvdata={cvDatas[i]}/>
+                              </div>
+                            )
+             }
         }
-                
-        if (cvDatas.length>0) {
-          cvEduList = cvDatas.map(cvdata => {
-            if(cvdata.name == "Education") {
-              return (
-               <div className="item" id={'edu-' + cvdata.id} key={cvdata.id}>
-                 <CVcard cvdata={cvdata}/>
-               </div>
-              )
-            }
-          })
-       }
+
+       
           return (
             <React.Fragment>
+              <div id="cvhat">     
+                <UndrawGraduation primaryColor='#172947' height='200px' />
+             </div> 
+             <div id="cvwork">     
+                <UndrawWorkTime primaryColor='#855B06' height='200px' />
+             </div> 
             <div id="cv-container" className="ui main container">
                 <h3 className="ui header workhead">Work Experience</h3>
                 <div class="ui list">{cvWorkList}</div>
@@ -58,7 +58,7 @@ class CV extends Component {
                 <div class="ui list">{cvEduList}</div>
             </div>
             </React.Fragment>
-        
+       
           )
       }
     }
