@@ -39,17 +39,17 @@ const encode = (data) => {
                     <form className="ui form" onSubmit={this.handleSubmit}>
                     <div className="field">
                         <label>Your Name</label>
-                        <input type="text" name="name" value={name} onChange={this.handleChange} placeholder="Joe Doe"/>
+                        <input id="name" type="text" name="name" value={name} onChange={this.handleChange} placeholder="Joe Doe"/>
                     </div>
                     <div className="field">
                         <label>Your E-mail</label>
-                        <input type="email" name="email" value={email} onChange={this.handleChange} placeholder="joe@doe.com"/>
+                        <input id="email" type="email" name="email" value={email} onChange={this.handleChange} placeholder="joe@doe.com"/>
                     </div>
                     <div className="field">
                         <label>Message</label>
-                        <textarea name="message" value={message} onChange={this.handleChange}/>
+                        <textarea id="message" name="message" value={message} onChange={this.handleChange}/>
                     </div>
-                    <button className="ui button" type="submit">Submit</button>
+                    <button id="submit" className="ui button" type="submit">Submit</button>
                     </form>
                     <UndrawChat primaryColor='#855B06' height='200px' />
            </div>
