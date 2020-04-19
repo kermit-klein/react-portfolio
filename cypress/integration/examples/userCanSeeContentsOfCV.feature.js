@@ -40,7 +40,7 @@ describe('User can see CV page', () => {
     })  
 
     it('displays education 3', () => {
-        cy.get('#edu-7').within(() => {
+        cy.get('#edu-6').within(() => {
           cy.get('.header').should('contain', 'Bachelor of Science, Electrical Engineering')
           cy.get('.description').should('contain', "electrical machines")
         })

@@ -46,7 +46,7 @@
     "description":"Electrical power engineering focus on power systems."
 },
 { 
-    "id":7,
+    "id":6,
     "name":"Education",
     "title":"Bachelor of Science, Electrical Engineering",
     "company":"Istanbul Technical University",
@@ -55,7 +55,7 @@
     "description":"Electrical engineering focus on electrical machines, HV and power electronics."
 },
 { 
-    "id":8,
+    "id":7,
     "name":"Work",
     "title":"Internship/Master Thesis",
     "company":"Alstom Power",
@@ -64,7 +64,7 @@
     "description":"Parameter study of ferro-resonance with harmonic balance method, investigation of resonances in power plant networks and developing a mathematical tool to study resonance."
 },
 { 
-    "id":9,
+    "id":8,
     "name":"Education",
     "title":"High School",
     "company":"Mathematics and Science, Burak Bora Anatolian High School",
