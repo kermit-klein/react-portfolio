@@ -36,7 +36,7 @@ const encode = (data) => {
       return (
           <div className="ui container contact-container">
 
-                    <form className="ui form" onSubmit={this.handleSubmit} data-netlify="true" name="contact">
+                    <form className="ui form" onSubmit={this.handleSubmit} data-netlify="true" name="contact" method="POST">
                     <div className="field">
                         <label>Your Name</label>
                         <input type="text" name="name" value={name} onChange={this.handleChange} placeholder="Joe Doe"/>
