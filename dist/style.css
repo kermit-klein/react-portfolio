@@ -23,6 +23,10 @@ footer {
   min-height: 100% !important;
 
 }
+.contact-container {
+  margin-top: 100px;
+  width: 40% !important;
+}
 .card{
   width:290px !important;
 

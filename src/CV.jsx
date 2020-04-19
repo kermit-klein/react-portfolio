@@ -3,6 +3,7 @@ import axios from "axios"
 import CVcard from "./CVcard"
 import { UndrawGraduation } from "react-undraw-illustrations"
 import { UndrawWorkTime } from "react-undraw-illustrations"
+import { Link } from "react-router-dom"
 
 class CV extends Component {
 
@@ -56,6 +57,11 @@ class CV extends Component {
                 <h3 className="ui header eduhead">Education</h3>
                 <div class="ui list">{cvEduList}</div>
             </div>
+            <div className="ui container">
+        <div className="btngroup">
+          <Link to="/contact"><button className="ui big button"><i className="envelope icon"></i>Contact me</button></Link>
+        </div>
+    </div>
             </React.Fragment>
        
           )
