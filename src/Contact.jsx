@@ -36,7 +36,7 @@ const encode = (data) => {
       return (
           <div className="ui container contact-container">
 
-                    <form className="ui form" onSubmit={this.handleSubmit} data-netlify="true" name="contact" method="POST">
+                    <form className="ui form" onSubmit={this.handleSubmit} data-netlify="true" name="contact" action="POST">
                     <div className="field">
                         <label>Your Name</label>
                         <input type="text" name="name" value={name} onChange={this.handleChange} placeholder="Joe Doe"/>
@@ -48,6 +48,10 @@ const encode = (data) => {
                     <div className="field">
                         <label>Message</label>
                         <textarea name="message" value={message} onChange={this.handleChange}/>
+                    </div>
+                    <div className="field">
+                        <div data-netlify-recaptcha="true">
+                        </div> 
                     </div>
                     <button className="ui button" type="submit">Submit</button>
                     </form>
