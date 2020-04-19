@@ -59,7 +59,7 @@ class CV extends Component {
             </div>
             <div className="ui container">
         <div className="btngroup">
-          <Link to="/contact"><button className="ui big button"><i className="envelope icon"></i>Contact me</button></Link>
+          <Link to="/contact"><button id="contactPage" className="ui big button"><i className="envelope icon"></i>Contact me</button></Link>
         </div>
     </div>
             </React.Fragment>

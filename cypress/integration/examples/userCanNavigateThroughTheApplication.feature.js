@@ -81,7 +81,64 @@ describe('User can navigate the app', () => {
       it('does not display My Projects header', () => {
         cy.get('#projects-header').should('not.exist')
       })
+    })
 
+    describe("to CV and it", ()=> {
+      beforeEach(() => {
+        cy.get('#cv-tab').click()
+      })
+
+      it('displays component name in url', () => {
+        cy.url().should("contain", "cv")
+      })
+
+      it('displays correct url', () => {
+        cy.url()
+          .should("not.contain", "projects")
+          .and("not.contain", "about")
+          .and("not.contain","contact")    
+      })
+
+      it('displays Contact page link and clicks it', () => {
+        cy.get('#contactPage').should('contain', 'Contact me')
+        cy.get('#contactPage').click()
+      })
+
+      it('displays CV headers', () => {
+        cy.get('.workhead').should('contain', 'Work Experience')
+        cy.get('.eduhead').should('contain', 'Education')
+      })
+
+      it('does not display My Projects header ', () => {
+        cy.get('#projects-header').should('not.exist')
+      })
+  
+      it('does not display Hello world', () => {
+        cy.get('#hello').should('not.exist')
+      })
+
+    })
+
+    describe("to Contacts page and it", ()=> {
+      beforeEach(() => {
+        cy.get('#cv-tab').click()
+        cy.get("#contactPage").click()
+      })
+
+      it('displays component name in url', () => {
+        cy.url().should("contain", "contact")
+      })
+
+      it('displays correct url', () => {
+        cy.url()
+          .should("not.contain", "projects")
+          .and("not.contain", "about")
+          .and("not.contain","cv")    
+      })
+
+      it('displays Form', () => {
+        cy.get('.contact-container').should('contain', 'Message')
+      })
 
     })
   })
