@@ -36,7 +36,7 @@ const encode = (data) => {
       return (
           <div className="ui container contact-container">
 
-                    <form className="ui form" onSubmit={this.handleSubmit}>
+                    <form className="ui form" onSubmit={this.handleSubmit} data-netlify="true" name="contact">
                     <div className="field">
                         <label>Your Name</label>
                         <input type="text" name="name" value={name} onChange={this.handleChange} placeholder="Joe Doe"/>
@@ -51,30 +51,10 @@ const encode = (data) => {
                     </div>
                     <button className="ui button" type="submit">Submit</button>
                     </form>
+                    <UndrawChat primaryColor='#855B06' height='200px' />
            </div>
-
-
-        //  <form onSubmit={this.handleSubmit}>
-        //   <p>
-        //     <label>
-        //       Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
-        //     </label>
-        //   </p>
-        //   <p>
-        //     <label>
-        //       Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
-        //     </label>
-        //   </p>
-        //   <p>
-        //     <label>
-        //       Message: <textarea name="message" value={message} onChange={this.handleChange} />
-        //     </label>
-        //   </p>
-        //   <p>
-        //     <button type="submit">Send</button>
-        //   </p>
-        // </form>
-        
+           
+                  
       );
     }
   }
