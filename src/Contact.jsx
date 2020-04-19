@@ -8,12 +8,12 @@ const encode = (data) => {
   }
 
   class Contact extends React.Component {
-    // constructor(props) {
-    //   super(props);
-    //   this.state = { name: "", email: "", message: "" };
-    // }
+    constructor(props) {
+      super(props);
+      this.state = { name: "", email: "", message: "" };
+    }
 
-    state = { name: "", email: "", message: "" }
+    // state = { name: "", email: "", message: "" }
 
     /* Here’s the juicy bit for posting the form submission */
 
