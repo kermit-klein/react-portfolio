@@ -39,7 +39,6 @@ class Projects extends Component {
              <div className="column">
                <UndrawMobileApps primaryColor='#855B06' height='200px'/>
              </div>
-          
           <div className="column">
             <h1 id="projects-header" className="ui header">My Projects</h1>
              <p className="textstyle1">Here you can find the small projects that I've done while learning Ruby, Javascript, CSS, HTML and ReactJS

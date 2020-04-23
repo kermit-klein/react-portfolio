@@ -31,43 +31,41 @@ class CV extends Component {
                cvWorkList.push(<div className="item" id={'work-' + cvDatas[i].id} key={cvDatas[i].id}>
                                   <CVcard cvdata={cvDatas[i]}/>
                                 </div>
-                              )
+                )
              } else {
 
               cvEduList.push(<div className="item" id={'edu-' + cvDatas[i].id} key={cvDatas[i].id}>
                                   <CVcard cvdata={cvDatas[i]}/>
                               </div>
-                            )
+                )
              }
         }
 
        
           return (
-            <React.Fragment>
-              <div id="cvhat">     
-                <UndrawGraduation primaryColor='#172947' height='200px' />
-             </div> 
-             <div id="cvwork">     
-                <UndrawWorkTime primaryColor='#855B06' height='200px' />
-             </div> 
-            <div id="cv-container" className="ui main container">
-                <h3 className="ui header workhead">Work Experience</h3>
-                <div class="ui list">{cvWorkList}</div>
-                <div className="ui section divider"></div>
-                <h3 className="ui header eduhead">Education</h3>
-                <div class="ui list">{cvEduList}</div>
-            </div>
-            <div className="ui container">
-        <div className="btngroup">
-          <Link to="/contact"><button id="contactPage" className="ui big button"><i className="envelope icon"></i>Contact me</button></Link>
-        </div>
-    </div>
-            </React.Fragment>
-       
+                <React.Fragment>
+                  <div id="cvhat">
+                    <UndrawGraduation primaryColor='#172947' height='200px' />
+                  </div>
+                  <div id="cvwork">
+                    <UndrawWorkTime primaryColor='#855B06' height='200px' />
+                  </div>
+                  <div id="cv-container" className="ui main container">
+                    <h3 className="ui header workhead">Work Experience</h3>
+                    <div class="ui list">{cvWorkList}</div>
+                    <div className="ui section divider"></div>
+                    <h3 className="ui header eduhead">Education</h3>
+                    <div class="ui list">{cvEduList}</div>
+                  </div>
+                  <div className="ui container">
+                    <div className="btngroup">
+                      <Link to="/contact">
+                      <button id="contactPage" className="ui big button"><i className="envelope icon"></i>Contact me</button>
+                      </Link>
+                    </div>
+                  </div>
+                </React.Fragment>
           )
       }
     }
-
-
-  
   export default CV
