@@ -5,10 +5,15 @@ const Header = () => {
   return (
     <nav className="ui secondary fixed menu inverted blue" style={headerStyle}>
       <div className="ui container">
-        <Link id="header" className="header item" to="/">
+        <Link
+          id="header"
+          className="header item"
+          to="/"
+          style={{ marginLeft: "-15vw" }}
+        >
           <i className="fas fa-crow fa-lg">
             {" "}
-            <span className="crow">Ali Erbay's Humble Portfolio</span>
+            <span className="crow">Ali Erbay's Portfolio</span>
           </i>
         </Link>
         <div className="right menu">
