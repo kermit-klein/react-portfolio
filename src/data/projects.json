@@ -8,37 +8,79 @@
   },
   {
     "id": 2,
-    "name": "ATM Machine",
-    "image": "http://static.everypixel.com/ep-pixabay/0041/5969/4337/51717/415969433751717428-atm.jpg",
-    "description": "An ATM in Ruby,lets you open an account,withdraw,deposit money which you actually don't have.",
-    "link":"https://github.com/kermit-klein/atm_challenge_2020"
+    "name": "Library",
+    "image": "http://static.everypixel.com/ep-libreshot/1150/5134/8094/15516/11505134809415516108.jpg",
+    "description": "A virtual library living in Ruby,It has 32 books which you can checkout and return but never read.",
+    "link": "https://github.com/kermit-klein/library-challenge"
   },
   {
     "id": 3,
-    "name": "FizzBuzz",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzUTwEIKI84xQgPVrEn6njbN_jlS6klZNPQYTBsntFwOguooIY&usqp=CAU",
-    "description": "First thing I've done in Ruby, so be nice.‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎",
-    "link":"https://github.com/kermit-klein/fizzbuzz" 
+    "name": "Library",
+    "image": "http://static.everypixel.com/ep-libreshot/1150/5134/8094/15516/11505134809415516108.jpg",
+    "description": "A virtual library living in Ruby,It has 32 books which you can checkout and return but never read.",
+    "link": "https://github.com/kermit-klein/library-challenge"
   },
   {
     "id": 4,
-    "name": "Address Book",
-    "image": "https://images.pexels.com/photos/68562/pexels-photo-68562.jpeg?w=1200&h=627&fit=crop&auto=compress&cs=tinysrgb",
-    "description": "An address book in Javascript, you can save your Friends's info,edit,delete them (if you have any).",
-    "link":"https://github.com/kermit-klein/addressbook"
+    "name": "Library",
+    "image": "http://static.everypixel.com/ep-libreshot/1150/5134/8094/15516/11505134809415516108.jpg",
+    "description": "A virtual library living in Ruby,It has 32 books which you can checkout and return but never read.",
+    "link": "https://github.com/kermit-klein/library-challenge"
   },
   {
     "id": 5,
-    "name": "Kermit Homepage",
-    "image": "https://pbs.twimg.com/profile_images/789433258589167617/yt_FEqGl_400x400.jpg",
-    "description": "You can learn about Kermit and purchase merchandise (at least you can try to).",
-    "link":"https://github.com/kermit-klein/kermit-klein.github.io"
+    "name": "Library",
+    "image": "http://static.everypixel.com/ep-libreshot/1150/5134/8094/15516/11505134809415516108.jpg",
+    "description": "A virtual library living in Ruby,It has 32 books which you can checkout and return but never read.",
+    "link": "https://github.com/kermit-klein/library-challenge"
   },
   {
     "id": 6,
+    "name": "Library",
+    "image": "http://static.everypixel.com/ep-libreshot/1150/5134/8094/15516/11505134809415516108.jpg",
+    "description": "A virtual library living in Ruby,It has 32 books which you can checkout and return but never read.",
+    "link": "https://github.com/kermit-klein/library-challenge"
+  },
+  {
+    "id": 7,
+    "name": "Library",
+    "image": "http://static.everypixel.com/ep-libreshot/1150/5134/8094/15516/11505134809415516108.jpg",
+    "description": "A virtual library living in Ruby,It has 32 books which you can checkout and return but never read.",
+    "link": "https://github.com/kermit-klein/library-challenge"
+  },
+  {
+    "id": 8,
+    "name": "ATM Machine",
+    "image": "http://static.everypixel.com/ep-pixabay/0041/5969/4337/51717/415969433751717428-atm.jpg",
+    "description": "An ATM in Ruby,lets you open an account,withdraw,deposit money which you actually don't have.",
+    "link": "https://github.com/kermit-klein/atm_challenge_2020"
+  },
+  {
+    "id": 9,
+    "name": "FizzBuzz",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzUTwEIKI84xQgPVrEn6njbN_jlS6klZNPQYTBsntFwOguooIY&usqp=CAU",
+    "description": "First thing I've done in Ruby, so be nice.‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎",
+    "link": "https://github.com/kermit-klein/fizzbuzz"
+  },
+  {
+    "id": 10,
+    "name": "Address Book",
+    "image": "https://images.pexels.com/photos/68562/pexels-photo-68562.jpeg?w=1200&h=627&fit=crop&auto=compress&cs=tinysrgb",
+    "description": "An address book in Javascript, you can save your Friends's info,edit,delete them (if you have any).",
+    "link": "https://github.com/kermit-klein/addressbook"
+  },
+  {
+    "id": 11,
+    "name": "Kermit Homepage",
+    "image": "https://pbs.twimg.com/profile_images/789433258589167617/yt_FEqGl_400x400.jpg",
+    "description": "You can learn about Kermit and purchase merchandise (at least you can try to).",
+    "link": "https://github.com/kermit-klein/kermit-klein.github.io"
+  },
+  {
+    "id": 12,
     "name": "BMI Calculator",
     "image": "https://yourbodyneedsu.com/wp-content/uploads/2014/05/etvagycsokkento-etelek-alma.jpg",
     "description": "A BMI calculator where you can measure how many Big Macs you had.‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‎‎",
-    "link":"https://github.com/kermit-klein/BMI_calculator"
+    "link": "https://github.com/kermit-klein/BMI_calculator"
   }
 ]
