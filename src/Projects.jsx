@@ -23,12 +23,7 @@ class Projects extends Component {
     if (projects.length > 0) {
       projectsList = projects.map((project) => {
         return (
-          <div
-            // style={{ marginLeft: "5px" }}
-            className="column"
-            id={"project-" + project.id}
-            key={project.id}
-          >
+          <div className="column" id={"project-" + project.id} key={project.id}>
             <ProjectCard project={project} />
           </div>
         );
@@ -48,15 +43,16 @@ class Projects extends Component {
               </h1>
               <p className="textstyle1">
                 Here you can find the small projects that I've done while
-                learning Ruby, Javascript, CSS, HTML and ReactJS There will be
-                more coming and hopefully new ones would be more complicated and
-                purposeful. Next project may involve Ruby in Rails.
+                learning Ruby, Javascript, CSS, HTML5, Rails, ReactJS, NodeJS
+                and Express. There will be more coming and hopefully new ones
+                would be more complicated and purposeful. I'm currently updating
+                readme files for each one of the projects.
               </p>
             </div>
           </div>
         </div>
         <div className="ui main container" style={{ width: "70%" }}>
-          <div className="ui stackable centered four column grid">
+          <div className="ui stackable centered padded relaxed four column grid">
             {projectsList}
           </div>
         </div>

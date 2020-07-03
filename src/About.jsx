@@ -18,15 +18,15 @@ const About = () => {
                 About Me
               </h1>
               <p className="textstyle1">
-                Born in Ankara.. Grew up in Istanbul.. Moved to Stockholm.. I'm
-                very interested in Web Developing and I have decided to do
-                something about it.
+                My name is Ali Erbay. Born in Ankara.. Grew up in Istanbul..
+                Moved to Stockholm.. I'm very interested in Web Developing and I
+                have decided to do something about it.
                 <br />
                 Learn it!
                 <br />I have electrical engineering background and lots of CRM
-                experience now I'm investing my time to learn software. My goal
-                is learning Ruby on Rails and React in and out with Test Driven
-                Development techniques.
+                experience now I'm investing my time to learn more about web
+                technologies. My goal is to get my first job opportunity in the
+                tech industry and improve my skills and knowledge continuously.
               </p>
             </div>
           </div>
