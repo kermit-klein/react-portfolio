@@ -41,6 +41,7 @@ footer {
   top: 0;
   bottom: 0;
   margin: auto;
+  max-height: 190px;
 }
 .cards {
   margin-bottom: 30px !important;
