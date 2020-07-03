@@ -46,7 +46,6 @@ const Header = () => {
     </nav>
   );
 };
-
 const headerStyle = {
   height: 60,
   fontSize: 18,
