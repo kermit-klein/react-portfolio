@@ -1,5 +1,7 @@
 # Portfolio Site with ReactJS
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5435e9a8-0967-4b3e-8612-a4dc24339b13/deploy-status)](https://app.netlify.com/sites/alierbay/deploys)
+
 ### Author
 [Ali Erbay](https://github.com/kermit-klein)
 
