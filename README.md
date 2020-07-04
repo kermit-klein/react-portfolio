@@ -9,7 +9,7 @@
 
 ### Description
 
-An humble portfolio site with React ( early react conventions are used )
+An humble portfolio site with React ( early react conventions are used ). Automatic creat-react app scaffolding wasn't used. Tested with Cypress.
 
 ### Built With
 
