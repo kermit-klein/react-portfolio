@@ -16,13 +16,9 @@ const ProjectCard = ({ project }) => {
                 <a href={project.link}>{project.name}</a>
               </h3>
               <div className="description">{project.description}</div>
-              <div style={{ position: "absolute", bottom: 4, right: 4 }}>
+              <div style={{ position: "absolute", bottom: 10, right: 10 }}>
                 <a href={`${project.gitLink}#readme`}>
-                  <img
-                    id="github-link"
-                    src="./src/img/github.png"
-                    height="18"
-                  ></img>
+                  <img id="github" src="./src/img/github.png" height="18"></img>
                 </a>
               </div>
             </div>
