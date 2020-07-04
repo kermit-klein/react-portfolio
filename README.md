@@ -5,7 +5,7 @@
 
 ### Deployed At
 
-[Heroku](https://alierbay.netlify.app/)
+[Netlify](https://alierbay.netlify.app/)
 
 ### Description
 
