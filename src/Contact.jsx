@@ -1,59 +1,79 @@
-import React from "react"
-import { UndrawChat } from "react-undraw-illustrations"
+import React from "react";
+import { UndrawChat } from "react-undraw-illustrations";
 
 const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
+
+class Contact extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: "", email: "", message: "" };
   }
 
-  class Contact extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = { name: "", email: "", message: "" };
-    }
+  // state = { name: "", email: "", message: "" }
+  /* Here’s the juicy bit for posting the form submission */
 
-    // state = { name: "", email: "", message: "" }
+  handleSubmit = (e) => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state }),
+    })
+      .then(() => alert("Success!"))
+      .catch((error) => alert(error));
 
-    /* Here’s the juicy bit for posting the form submission */
+    e.preventDefault();
+  };
 
-    handleSubmit = e => {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...this.state })
-      })
-        .then(() => alert("Success!"))
-        .catch(error => alert(error));
+  handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
 
-      e.preventDefault();
-    };
-
-    handleChange = e => this.setState({ [e.target.name]: e.target.value });
-
-    render() {
-      const { name, email, message } = this.state;
-      return (
-            <div className="ui container contact-container">
-              <form className="ui form" onSubmit={this.handleSubmit}>
-                <div className="field">
-                  <label>Your Name</label>
-                  <input id="name" type="text" name="name" value={name} onChange={this.handleChange} placeholder="Joe Doe" />
-                </div>
-                <div className="field">
-                  <label>Your E-mail</label>
-                  <input id="email" type="email" name="email" value={email} onChange={this.handleChange} placeholder="joe@doe.com" />
-                </div>
-                <div className="field">
-                  <label>Message</label>
-                  <textarea id="message" name="message" value={message} onChange={this.handleChange}/>
-                </div>
-                <button id="submit" className="ui button" type="submit">Submit</button>
-              </form>
-              <UndrawChat primaryColor='#855B06' height='200px' />
-            </div>
-      );
-    }
+  render() {
+    const { name, email, message } = this.state;
+    return (
+      <div className="ui container contact-container">
+        <form className="ui form" onSubmit={this.handleSubmit}>
+          <div className="field">
+            <label>Your Name</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              value={name}
+              onChange={this.handleChange}
+              placeholder="Joe Doe"
+            />
+          </div>
+          <div className="field">
+            <label>Your E-mail</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              value={email}
+              onChange={this.handleChange}
+              placeholder="joe@doe.com"
+            />
+          </div>
+          <div className="field">
+            <label>Message</label>
+            <textarea
+              id="message"
+              name="message"
+              value={message}
+              onChange={this.handleChange}
+            />
+          </div>
+          <button id="submit" className="ui button" type="submit">
+            Submit
+          </button>
+        </form>
+        <UndrawChat primaryColor="#855B06" height="200px" />
+      </div>
+    );
   }
+}
 
-export default Contact
+export default Contact;
