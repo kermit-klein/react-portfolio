@@ -45,7 +45,7 @@
     "image": "https://i.imgur.com/wkIMtpq.png",
     "description": "A restaurant app where you can order food online, Rails API backend is used to handle users and orders. Rails/React/PostgreSQL",
     "gitLink": "https://github.com/kermit-klein/slowfood-client-team-2-april-2020",
-    "link": "https://stoic-wilson-58c3b4.netlify.app/menu"
+    "link": "https://stoic-wilson-58c3b4.netlify.app/"
   },
   {
     "id": 7,
