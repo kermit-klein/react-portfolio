@@ -52,9 +52,7 @@ class Projects extends Component {
           </div>
         </div>
         <div className="ui main container" style={{ width: "70%" }}>
-          <div className="ui stackable centered padded relaxed four column grid">
-            {projectsList}
-          </div>
+          <div className="ui doubling four column grid">{projectsList}</div>
         </div>
       </>
     );
