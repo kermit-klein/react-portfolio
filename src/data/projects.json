@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Library",
-    "image": "http://static.everypixel.com/ep-libreshot/1150/5134/8094/15516/11505134809415516108.jpg",
+    "image": "https://i.imgur.com/a544kXB.jpg",
     "description": "A virtual library living in Ruby,It has 32 books which you can checkout and return but never read. Only Ruby",
     "gitLink": "https://github.com/kermit-klein/library-challenge",
     "link": "https://github.com/kermit-klein/library-challenge"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "ATM Machine",
-    "image": "http://static.everypixel.com/ep-pixabay/0041/5969/4337/51717/415969433751717428-atm.jpg",
+    "image": "https://i.imgur.com/wAdOJ8r.jpg",
     "description": "An ATM in Ruby,lets you open an account,withdraw,deposit money which you actually don't have. Only Ruby",
     "link": "https://github.com/kermit-klein/atm_challenge_2020",
     "gitLink": "https://github.com/kermit-klein/atm_challenge_2020"
