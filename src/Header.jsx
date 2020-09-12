@@ -41,6 +41,15 @@ const Header = () => {
           >
             Projects
           </NavLink>
+          <NavLink
+            id="blog-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/blog"
+          >
+            <div class="floating ui red label">new</div>
+            Blog
+          </NavLink>
         </div>
       </div>
     </nav>
