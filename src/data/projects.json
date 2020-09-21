@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "Covid-19 Tracker",
+    "image": "https://i.imgur.com/zC6iSsb.png",
+    "description": "Track covid number globally or country specific with Mathroid Covid-API. Material UI react framework is used for user interface. React Only",
+    "gitLink": "https://github.com/kermit-klein/covid_chart",
+    "link": "https://github.com/kermit-klein/covid_chart"
+  },
+  {
+    "id": 2,
     "name": "YelpRecord",
     "image": "https://i.imgur.com/ow6j41v.png",
     "description": "An app where you can create posts about your local record shops,rate them, comment on them. NodeJS/Express/MongoDB",
@@ -8,7 +16,7 @@
     "link": "https://guarded-refuge-06498.herokuapp.com/"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "reQuest",
     "image": "https://i.imgur.com/Z9LBbne.png",
     "description": "An app uses virtual currency karma points to get help from other people or give help and receive karma points. Rails/React/PostgreSQL",
@@ -16,7 +24,7 @@
     "link": "https://requestnow.netlify.app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Daily News Sense Client",
     "image": "https://i.imgur.com/D5aeat2.png",
     "description": "Client Side of a news web app. Geolocation, UI language selection, Stripe payment features are used in this project. Rails/React/PostgreSQL",
@@ -24,7 +32,7 @@
     "link": "https://dailynewssense.netlify.app/"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Daily News Sense Editorial",
     "image": "https://i.imgur.com/a5WFGZb.png",
     "description": "Editorial admin web app for controlling Daily News Sense. Journalist and Editors have different privilages. Rails/React/PostgreSQL",
@@ -32,7 +40,7 @@
     "link": "https://dailynewssense-staff.netlify.app/"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Cooper Test",
     "image": "https://i.imgur.com/b8remLV.png",
     "description": "A cooper test tracker for your own performance working with Rails API backend, Chart.js is used for drawing up nice performance graphs. Rails/React/PostgreSQL",
@@ -40,7 +48,7 @@
     "link": "https://frosty-perlman-b731b4.netlify.app/"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "InstaFood",
     "image": "https://i.imgur.com/wkIMtpq.png",
     "description": "A restaurant app where you can order food online, Rails API backend is used to handle users and orders. Rails/React/PostgreSQL",
@@ -48,7 +56,7 @@
     "link": "https://stoic-wilson-58c3b4.netlify.app/"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Rock Paper Scissors",
     "image": "https://i.imgur.com/rS8Xf0C.png",
     "description": "A classical RPS game where you can activate cheat, enter your name and reset or save your score. Only ReactJs",
@@ -56,7 +64,7 @@
     "link": "https://nifty-villani-d7417b.netlify.app/"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Library",
     "image": "https://i.imgur.com/a544kXB.jpg",
     "description": "A virtual library living in Ruby,It has 32 books which you can checkout and return but never read. Only Ruby",
@@ -64,7 +72,7 @@
     "link": "https://github.com/kermit-klein/library-challenge"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "ATM Machine",
     "image": "https://i.imgur.com/wAdOJ8r.jpg",
     "description": "An ATM in Ruby,lets you open an account,withdraw,deposit money which you actually don't have. Only Ruby",
@@ -72,7 +80,7 @@
     "gitLink": "https://github.com/kermit-klein/atm_challenge_2020"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "BMI Calculator",
     "image": "https://i.imgur.com/4bYub1f.png",
     "description": "A BMI calculator where you can measure how many Big Macs you had.‏‏‎ Only ReactJs‎‎‎‎",
@@ -80,7 +88,7 @@
     "link": "https://adoring-saha-ae9773.netlify.app/"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Address Book",
     "image": "https://i.imgur.com/IJkpvNq.png",
     "description": "An address book in Javascript, you can save your Friends's info,edit,delete them (if you have any). Javascript/JQuery",
@@ -88,7 +96,7 @@
     "link": "https://lucid-goldberg-376388.netlify.app/"
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Kermit Homepage",
     "image": "https://www.gannett-cdn.com/-mm-/d5e2b1d154f830ff7d8b16f13178ec1d3854aa4f/c=0-265-2589-1728/local/-/media/2017/08/30/USATODAY/USATODAY/636396561829785209-XXX-KERMIT--10-OF-10-47661325.JPG",
     "description": "You can learn about Kermit and purchase merchandise (at least you can try to). Basic HTML/CSS",
