@@ -6,12 +6,12 @@ const Blog = () => {
     if (container) {
       let css = document.createElement("link");
       css.href =
-        "https://www.retainable.io/assets/retainable/rss-embed/retainable.css";
+        "https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.css";
       css.rel = "stylesheet";
       document.getElementsByTagName("head")[0].appendChild(css);
       let script = document.createElement("script");
       script.src =
-        "https://www.retainable.io/assets/retainable/rss-embed/retainable.js";
+        "https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js";
       document.getElementsByTagName("body")[0].appendChild(script);
     }
   }, []);
